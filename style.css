@@ -207,12 +207,12 @@ footer p
 }
 
 @media (max-width:400px) {
-    h1 small{
-        /* font-size: ; */
+    .video * {
+        max-width: 100%;
     }
     h1{
         font-size: 3rem !important;
-        word-break: break-all;
+        /* word-break: break-all; */
     }
     .flex1{
         display: flex;
@@ -224,10 +224,26 @@ footer p
     }
     h3{
      font-size: 3rem !important;
-     word-break: break-all;
+     /* word-break: break-all; */
     }
     h4{
      font-size: 2rem !important;
-     word-break: break-all;
+     /* word-break: break-all; */
+    }
+}
+
+@media (max-width:300px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    h3 {
+        font-size: 2rem !important;
+        /* word-break: break-all; */
+    }
+
+    h4 {
+        font-size: 1.5rem !important;
+        /* word-break: break-all; */
     }
 }
